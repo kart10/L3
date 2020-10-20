@@ -1,0 +1,71 @@
+:root {
+    --all_html__background_color: green;
+    --all_html_text_color: aliceblue;
+}
+
+html {
+    text-align: left;
+    background-color: var(--all_html__background_color);
+    color: var(--all_html_text_color);
+}
+
+hr {
+    background-color: aliceblue;
+    color: aliceblue;
+    height: 2px;
+}
+
+body {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+div.tabl {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1 {
+    text-align: center;
+}
+
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 50%;
+    border-style: outset;
+}
+
+div.Umeniya {
+    align-items: center;
+}
+
+div.Umeniya td {
+    border-style: solid;
+    border-color: gold;
+    border-collapse: collapse;
+    align-items: center;
+}
+
+div.Ssilki ul {
+    list-style-type: square;
+    text-align: center;
+    font-size: 200%;
+}
+
+div.stazh ul {
+    list-style-type: square;
+}
